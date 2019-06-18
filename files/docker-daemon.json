@@ -1,0 +1,13 @@
+{
+  "bridge": "none",
+  "exec-opts": ["native.cgroupdriver=cgroupfs"],
+  "log-driver": "json-file",
+  "log-opts": {
+    "max-size": "10m",
+    "max-file": "10"
+  },
+  "live-restore": true,
+  "iptables": false,
+  "storage-driver": "overlay2",
+  "max-concurrent-downloads": 10
+}
