@@ -1,12 +1,11 @@
-# ubuntu-eks-ami
-Packer configuration for building a custom EKS AMI
 # Ubuntu based Amazon EKS AMI Build 
 
 This repository contains resources and configuration scripts for building a
 custom Ubuntu 18.04 based Amazon EKS AMI with [HashiCorp Packer](https://www.packer.io/).
 This is based on [Amazon EKS AMI Build Specification](https://github.com/awslabs/amazon-eks-ami)
 which is the same configuration that Amazon EKS uses to create the official Amazon
-EKS-optimized AMI. Changes were made
+EKS-optimized AMI. Changes were made to ensure that the appropriate packages are installed and
+modifications made to align with Ubuntu path names and default file locations
 
 ## Setup
 
