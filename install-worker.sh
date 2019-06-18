@@ -292,7 +292,6 @@ sudo rm -rf \
     sudo rm -rf \
         /etc/hostname \
         /etc/machine-id \
-        /etc/resolv.conf \
         /etc/ssh/ssh_host* \
         /home/ubuntu/.ssh/authorized_keys \
         /root/.ssh/authorized_keys \
